@@ -6,7 +6,7 @@ body {
 main {
   font-family: "roboto", sans-serif;
 }
-header {
+#headerNav {
   height: 80px;
   width: 100%;
   display: flex;
@@ -18,6 +18,11 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
+  transition: background-color 0.3s;
+}
+
+#headerNav.scrolled {
+  background-color: white;
 }
 .logo,
 .link {
@@ -39,8 +44,22 @@ header {
   background-color: #191919;
   cursor: pointer;
   margin-top: 2em;
+  transition: background-color 0.3s;
 }
 
+.colorButton.scrolled {
+  background-color: #1a8917;
+}
+
+.colorButtonStart {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: whitesmoke;
+  background-color: #191919;
+  cursor: pointer;
+  margin-top: 2em;
+}
 .curious {
   height: 280px;
   width: 100%;
