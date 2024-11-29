@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+main {
+  font-family: "roboto", sans-serif;
+}
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: #ffc017;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.logo,
+.link {
+  margin: 0 200px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.colorButton {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: whitesmoke;
+  background-color: #191919;
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+.curious {
+  height: 280px;
+  width: 100%;
+  display: flex;
+  padding-left: 25em;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #ffc017;
+  padding-top: 3em;
+}
+h1 {
+  color: #191919;
+  font-size: 6.5em;
+  font-family: "Spectral", serif;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+.curious h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+    
+}
+.curious button {
+  padding-inline: 30px;
+}
+.stayCurious {
+  display: flex;
+  background-color: #ffc017;
+  height: 44vh;
+}
+.svg-image {
+    position: absolute;
+    right: 1%;
+  height: 45%;
+  width: auto;
+}
+.trending {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  margin-right: 200px;
+  padding-top: 50px;
+  height: 510px;
+  width: 83%;
+}
+.trendingHeader {
+  display: flex;
+  gap: 20px;
+
+  align-items: center;
+}
+.hrTrending {
+  width: 100%;
+  height: 1.8px;
+  background-color: rgb(219 205 205 / 60%);
+  border: none;
+  margin-left: 0;
+}
+.article p {
+  font-family: "roboto", sans-serif;
+  padding-top: 6px;
+  padding-left: 6px;
+  font-weight: bold;
+}
+.article {
+  margin-top: 10px;
+  display: flex;
+  flex: 0 0 calc(33.33% - 10px);
+}
+.article span p {
+    margin-right: 9px;
+    font-size: 25px;
+  color: gray;
+  opacity: 0.3;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info > .title {
+    margin: 0;
+}
+.img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 13px;
+}
+.img img {
+  border-radius: 50%;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.name span {
+  color: #777373;
+}
+.time {
+  color: rgb(175, 173, 173);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.time span {    
+    padding-left: 10em;
+
+}
+.trendingHeader p {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+.trendingHeader img {
+  height: 45px;
+}
+.orderTrend {
+  display: flex;
+  flex-wrap: wrap;
+}
+.time img {
+  height: 25px;
+}
+.otherArticle {
+  padding-left: 200px;
+}
+.otherArticle .subtitle {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+.otherArticle .time p {
+  font-weight: normal;
+  color: #777373;
+}
+
+.otherArticle .img img {
+  height: 40px;
+  width: 40px;
+}
+.otherArticle .info {
+  max-width: 457px;
+}
+.lateralImages img {
+  height: 190px;
+  margin-left: 50px;
+}
+.otherArticle .article {
+  margin-top: 60px;
+  height: 190px;
+}
+
+.otherArticle .time {
+  width: 457px;
+  font-size: 0.8rem;
+  transform: translateY(-25px);
+}
+.otherArticle .img {
+  margin-top: 0;
+}
+.button2 {
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font: inherit;
+  padding: 10px;
+
+  color: gray;
+}
+.time div {
+  display: flex;
+  align-items: center;
+}
+.otherArticle .time {
+  color: rgb(175, 173, 173);
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookmark {
+  border: none;
+  background: none;
+}
+
+.secondPart {
+  display: flex;
+}
+
+.discoverTitle {
+  margin-top: 85px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+  
+}
+
+.discoverButtons,
+.links,
+hr {
+  margin-left: 100px;
+}
+.discoverButton {
+  background: none;
+  color: #777373;
+
+  border: solid 0.7px rgb(219 205 205 / 60%);
+  padding: 12px 22px;
+  border-radius: 5px;
+  flex: 1 1 calc(33.33% - 10px);
+
+  display: inline-block;
+  flex: 0 1 auto;
+}
+.discover {
+    position: relative;
+  position: sticky;
+  top: 0;
+  height: 500px;
+  margin-right: 370px;
+  transition: top 0.3s;
+}
+.discoverContent {
+  margin-top: -30px;
+}
+.discoverTitle {
+    position: sticky; 
+    top: 0; 
+}
+.discoverButtons {
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+hr {
+  margin-top: 50px;
+  width: 470px;
+  height: 1.8px;
+  background-color: rgb(219 205 205 / 60%);
+  border: none;
+}
+.links a {
+  text-decoration: none;
+  color: #777373;
+}
+.links {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 35px;
+}
