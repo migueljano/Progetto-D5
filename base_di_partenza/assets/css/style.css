@@ -45,7 +45,7 @@ header {
   height: 280px;
   width: 100%;
   display: flex;
-  padding-left: 25em;
+  padding-left: 10em;
   justify-content: space-evenly;
   flex-direction: column;
   background-color: #ffc017;
@@ -57,6 +57,7 @@ h1 {
   font-family: "Spectral", serif;
   margin-bottom: 0px;
   line-height: 1;
+  margin-top: 30px;
 }
 .curious h3 {
   font-size: 1.5rem;
@@ -70,7 +71,7 @@ h1 {
 .stayCurious {
   display: flex;
   background-color: #ffc017;
-  height: 44vh;
+  height: 50vh;
 }
 .svg-image {
     position: absolute;
@@ -106,7 +107,12 @@ h1 {
   padding-left: 6px;
   font-weight: bold;
 }
+.orderTrend > .article {
+  padding-top: 0px;
+  margin-top: 0px;
+}
 .article {
+  padding-top: 36px;
   margin-top: 10px;
   display: flex;
   flex: 0 0 calc(33.33% - 10px);
@@ -120,7 +126,12 @@ h1 {
 .info {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  position: relative;
+  width: fit-content;
+}
+.bookmark {
+  position: absolute;
+  left: 90%;
 }
 
 .info > .title {
@@ -252,18 +263,16 @@ hr {
 .discoverButton {
   background: none;
   color: #777373;
-
   border: solid 0.7px rgb(219 205 205 / 60%);
   padding: 12px 22px;
   border-radius: 5px;
   flex: 1 1 calc(33.33% - 10px);
-
   display: inline-block;
   flex: 0 1 auto;
 }
 .discover {
   position: sticky;
-  top: 0;
+  top: 40px;
   height: 500px;
   margin-right: 370px;
   transition: top 0.3s;
