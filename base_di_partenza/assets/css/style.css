@@ -11,7 +11,7 @@ header {
   width: 100%;
   display: flex;
   background-color: #ffc017;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   border-bottom: solid 1px black;
   position: fixed;
@@ -262,7 +262,6 @@ hr {
   flex: 0 1 auto;
 }
 .discover {
-    position: relative;
   position: sticky;
   top: 0;
   height: 500px;
@@ -272,10 +271,7 @@ hr {
 .discoverContent {
   margin-top: -30px;
 }
-.discoverTitle {
-    position: sticky; 
-    top: 0; 
-}
+
 .discoverButtons {
   display: flex;
   gap: 13px;
